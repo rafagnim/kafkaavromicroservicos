@@ -34,7 +34,7 @@ public class CheckoutEntity {
     private Status status;
 
     @Column
-    private Boolean saveAddress;
+    private Boolean sameAddress;
 
     @Column
     private Boolean saveInformation;

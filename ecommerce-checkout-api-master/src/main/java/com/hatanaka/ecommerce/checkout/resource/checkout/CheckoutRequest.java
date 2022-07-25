@@ -20,7 +20,7 @@ public class CheckoutRequest implements Serializable {
     private String country;
     private String state;
     private String cep;
-    private Boolean saveAddress;
+    private Boolean sameAddress;
     private Boolean saveInfo;
     private String paymentMethod;
     private String cardName;

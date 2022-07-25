@@ -31,7 +31,7 @@ public class CheckoutServiceImpl implements CheckoutService {
         final CheckoutEntity checkoutEntity = CheckoutEntity.builder()
                 .code(uuidUtil.createUUID().toString())
                 .status(CheckoutEntity.Status.CREATED)
-                .saveAddress(checkoutRequest.getSaveAddress())
+                .sameAddress(checkoutRequest.getSameAddress())
                 .saveInformation(checkoutRequest.getSaveInfo())
                 .shipping(ShippingEntity.builder()
                                   .address(checkoutRequest.getAddress())
